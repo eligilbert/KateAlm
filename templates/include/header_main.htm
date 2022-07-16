@@ -22,8 +22,8 @@
                 <h3 class="d-none d-lg-block">Kate Alm Suzuki Piano Studio</h3>
                 {% endif %}
                 {% if request.path == immersion_url %}
-                <h1 class="d-none d-lg-block">Immersion Program - New Families</h1>
-                <h1 class="d-lg-none">Immersion</h1>
+                <h1 class="d-none d-lg-block">New and Continuing Families</h1>
+                <h1 class="d-lg-none">Families</h1>
                 <h3 class="d-none d-lg-block">Kate Alm Suzuki Piano Studio</h3>
                 {% endif %}
                 {% if request.path == school_year_url %}
@@ -77,6 +77,7 @@
             {#<li id="nav-school" class="nav-item {% if request.path == school_year_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:school_year' %}">Current Students</a></li>#}
             <li id="nav-programs" class="nav-item {% if request.path == programs_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:programs' %}">Studio Archives</a></li>
             <li id="nav-musicalsoulmates" class="nav-item {% if request.path == musicalsoulmates_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:musicalsoulmates' %}">Musical Soulmates</a></li>
+            <li id="nav-harmonyyouth" class="nav-item {% if request.path == harmonyyouth_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:harmonyyouth' %}">Harmony Youth Choir</a></li>
         </ul>
     </div>
 </nav>
