@@ -1,5 +1,9 @@
 {% extends "base.htm" %}
 {% load staticfiles %}
+{% block include_stylesheet %}
+    <link rel="stylesheet" href="{% static 'lib/owlCarousel/assets/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/owlCarousel/assets/owl.theme.default.css' %}">
+{% endblock include_stylesheet %}
 
 {% block main_text %}
 
