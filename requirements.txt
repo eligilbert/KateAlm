@@ -1,6 +1,6 @@
 astroid==1.6.3
 boto==2.48.0
-boto3==1.7.40
+boto3==1.26.79
 botocore==1.10.40
 dj-database-url==0.4.2
 Django==2.2.21
