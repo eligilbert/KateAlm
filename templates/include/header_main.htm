@@ -74,7 +74,7 @@
         <ul class="navbar-nav ml-auto text-center text-md-left">
             <li id="nav-about" class="nav-item {% if request.path == about_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:home' %}">Home</a></li>
             <li id="nav-immersion" class="nav-item {% if request.path == immersion_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:immersion' %}">Suzuki Piano Studio</a></li>
-            <li id="nav-programs" class="nav-item {% if request.path == programs_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:programs' %}">Studio Archives</a></li>
+            {#<li id="nav-programs" class="nav-item {% if request.path == programs_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:programs' %}">Studio Archives</a></li>#}
             <li id="nav-musicalsoulmates" class="nav-item {% if request.path == musicalsoulmates_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:musicalsoulmates' %}">Performer's Collective</a></li>
             <li id="nav-harmonyyouth" class="nav-item {% if request.path == harmonyyouth_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:harmonyyouth' %}">Harmony Youth Choir</a></li>
         </ul>
