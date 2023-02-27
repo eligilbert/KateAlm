@@ -8,107 +8,21 @@
 
 {% block main_text %}
     <div class="container-layout">
-        {#        <audio autoplay loop>#}
-        {#           <source src="https://s3-us-west-2.amazonaws.com/ka-public/Aquarium.mp3">#}
-        {#        </audio>#}
+                <audio autoplay loop>
+                   <source src="https://s3-us-west-2.amazonaws.com/ka-public/Aquarium.mp3">
+                </audio>
+
         <section>
-            <div class="container-content">
-                <div class="row">
-                    <div class="col-12 col-lg-7">
-                        <p>Dear interested parent,</p>
-                        <p>Thank you for your interest in <a href="https://suzukiassociation.org" target="_blank">Suzuki</a> piano! A loving, nurturing and supportive environment is the foundation of the Suzuki
-                            method.</p>
-                                                <p>Since I first sought out training in the Suzuki method, I have been deeply gratified to be able to pass on the gift and joy of making music to my students and their families. </p>
-{#                        <p>Even after a lifetime of immersion in music, both in my childhood home, at music school, and as a professional musician such as I have had (I am happy to forward my resume on request!), being able to teach well is not guaranteed.</p>#}
-{#                                <p>I am very pleased to observe, after eleven years, and more to come, of dedicated teacher-training, that my students are playing beautifully, by ear, by reading,and in ensembles. Most importantly, I am gratified to observe that their overall their experience is joyful. I hope that you and your child can be a part of this experience.</p>#}
-{#                        <p>Just listen to what we can do together!</p>#}
-                    </div>
-
-                    <div class="col-12 col-lg-5">
-                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/hyc_kate_portrait.jpg" alt="Kate Alm" class="img-fluid img-thumbnail image-shadow">
-{#                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/kate_alm_headshot_2022.jpeg" alt="Kate Alm" class="img-fluid img-thumbnail image-shadow">#}
-{#                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/HeadShot2021.jpg" alt="Kate Alm" class="img-fluid img-thumbnail image-shadow">#}
-{#                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/HeadShot.jpg" alt="Kate Alm" class="img-fluid img-thumbnail image-shadow">#}
-                        {#                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/virtuallesson.jpeg" alt="Virtual Lesson" class="img-fluid img-thumbnail image-shadow" style="transform:rotate(90deg);">#}
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-9">
-                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/Studio_Portrait.jpg" alt="Kate Alm Suzuki Piano Studio Portrait; Photo by Kevin Monahan" width="92%">
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eeujlKr2aTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-
-
-            </div>
+            Musical Soulmates: Suzuki Soulmates Piano Studio, Harmony Youth Choir, and the Musical Soulmates Performer’s Collective cultivate joy, healing, and connection through both process and performance. The Musical Soulmates programs showcase a kaleidoscopic range of music and often include visual art, spoken word and poetic embodiment.
+            <br><br>
+            <a href="{% url 'general:immersion' %}">Musical Soulmates Suzuki Piano Studio</a> implements the philosophy of Shinichi Suzuki that develops the natural ability of every child to learn and master the art of music, and infuses love, skill, and creative engagement in music learning, nurturing the whole child. It is based on the “Suzuki Triangle” of Parent, Teacher and Child and creates an entire musical environment to nurture the child.
+            <br><br>
+            The cultivation of resilience is our commitment that runs through our <a href="{% url 'general:harmonyyouth' %}">Harmony Youth Choir</a>, developing the next generation of youth leaders in music while closing the racial gap in performance representation as young as six years old.
+            <br><br>
+            <a href="{% url 'general:musicalsoulmates' %}">Musical Soulmates Performers Collective</a>, rich in representation of composers, song writers, and performers of color, and benefitting organizations serving the underserved in Santa Cruz County, cultivates a process of community connection to deliver an authentic masterpiece captured in the joy of performing. Musical Soulmates Performer’s Collective  presents concerts of high caliber, of radical collaboration, and of joy.
 
         </section>
-        <section id="events">
-            <header id="banner-events">Dates &amp Events</header>
-            {% include "include/events_list.htm" %}
-        </section>
-        <!--         <section id="new-students">
-            <header id="banner-new-students">For New Students</header>
-            <div class="container-content">
-                <p>It has taken me years to develop a method for introducing students to the Suzuki Method; it is very rewarding and well worth the investment of your time. This process educates both the parent and child thoroughly, so that when your child begins lessons, he experiences success, excellence, and joy from the very beginning. To get the best possible start in piano and ensure success for your child I require the following:</ol>
-                <li>
-                    <ol>Sign up to observe a private and group lesson; schedule a 30 minute consultation with me. Receive and read <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/StudioPolicy.pdf" target="_blank">studio policy</a> and <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/Observation.pdf" target="_blank">observation etiquette</a> handout. There is no cost for this. </ol>
-                    <ol>Enroll in my 10-week Fall or Spring Suzuki Piano Immersion and Introductory Class. Book and CD included. Cost: $250.</p>
-                    <ol>After you and your child have completed the Suzuki Piano Immersion and Introductory Class, you will be eligible to enroll for lessons. Enrollment is a 45 minute session in which we discuss your and your child's experience so far, (child does not attend), I answer any questions you have, and we go over the <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/StudioPolicy.pdf" target="_blank">studio policy</a> and other handouts together. Cost: $40.</ol>
-                </li>
-                <p>To learn more about the dates for the immersion program, as well as to access a repository of all the documents referenced above, please click <a href="{% url 'general:immersion' %}">here</a>.</p>
-            </div>
-        </section> -->
-        <!--         <section id="summer">
-            <header id="banner-summer">Summer &amp School Year Policies</header>
-            <div class="container-content">
-                 <p>If your child is sick during the school year, please do not hesitate to cancel. This is in everyone’s best interest and the lesson can be rescheduled. Absense for other reasons is not refundable; however, you may trade times with any other student to make up for lost lessons. All of this information is included in my <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/StudioPolicy.pdf" target="_blank">studio policy</a>.</p>
-                <p>Group duos are suspended for the summer - except if you expressly request a summer duo - so that I can work with the children individually on their reading, theory, rhythm and solfa skills. Therefore in place of group duo, you receive 10 extra minutes. Sometimes I use the extra time to just chat with your child about how his summer is going. It is a very nice break from the more formalized lessons during the school year! More information about about summer is in my <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/SummerInfo.pdf" target="_blank">summer fees and fact sheet</a>. </p>
-                <p>This is an abbreviated version of summer and school year policies. For a more complete description please go to the <a href="{% url 'general:events' %}">summer</a> and <a href="{% url 'general:school_year' %}">school year</a> pages. </p>
-            </div>
-        </section> -->
-        <section id="programs">
-            <header id="banner-summer">Programs</header>
-            <div class="container-content">
-                <p>I offer many opportunities for us to connect as a community of adults and children learning and appreciating music! For more information about these programs, which include reading club and student-to-student mentoring, please click <a href="{% url 'general:immersion' %}">here</a>. </p>
-            <center>
-                    <div class="container-carousel">
-                        <div id="owl-carousel" class="owl-carousel owl-theme">
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/kate_with_kids_sanctuary.jpg' %}" alt="kate_with_kids_sanctuary.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/girl_with_dog.jpg' %}" alt="girl_with_dog.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/gecko.jpg' %}" alt="gecko.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/stuffy_owl.jpg' %}" alt="stuffy_owl.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/student_playing_estonia.jpg' %}" alt="student_playing_estonia.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/flamingos.jpg' %}" alt="flamingos.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/bird.jpg' %}" alt="bird.jpg" class="img-carousel"></div>
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/lying_down1.jpeg' %}" alt="lying_down1.jpeg" class="img-carousel"></div>#}
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/jack.jpeg' %}" alt="jack.jpeg" class="img-carousel"></div>
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/book.jpeg' %}" alt="book.jpeg" class="img-carousel"></div>#}
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/IMG_2382.jpeg' %}" alt="IMG_2382.jpeg" class="img-carousel"></div>#}
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/lvkk_meera.jpeg' %}" alt="lvkk_meera.jpeg" class="img-carousel"></div>
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/big_boy_zoom.jpeg' %}" alt="big_boy_zoom.jpeg" class="img-carousel"></div>#}
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/zoom3.jpeg' %}" alt="zoom3.jpeg" class="img-carousel"></div>#}
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/girl_dog.jpeg' %}" alt="girl_dog.jpeg" class="img-carousel"></div>#}
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/IMG_2594.jpeg' %}" alt="IMG_2594.jpeg" class="img-carousel"></div>#}
-{#                            <div class="item mx-auto"><img src="{% static 'images/carousel/dog.jpeg' %}" alt="dog.jpeg" class="img-carousel"></div>#}
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/recital_zoom.jpeg' %}" alt="recital_zoom.jpeg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/shark.jpeg' %}" alt="shark.jpeg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/zoom.jpeg' %}" alt="zoom.jpeg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/sheep.jpeg' %}" alt="sheep.jpeg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/dog.jpg' %}" alt="dog.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/pensive_dog.jpg' %}" alt="pensive_dog.jpg" class="img-carousel"></div>
-                            <div class="item mx-auto"><img src="{% static 'images/carousel/whiteboard.jpg' %}" alt="whiteboard.jpg" class="img-carousel"></div>
-                            {#                            <div class="item mx-auto"><img src="{% static 'images/carousel/lulu_viv_kate_kiddo.jpeg' %}" alt="lulu_viv_kate_kiddo.jpeg" class="img-carousel"></div>#}
-                        </div>
-                    </div>
-                </center>
-            </div>
 
-        </section>
     <section id="new-students">
             <header id="banner-documents">Contact Me!</header>
             <div class="row container-content justify-content-center">
@@ -123,26 +37,3 @@
 
 {% endblock main_text %}
 
-{% block page_scripts %}
-    {{block.super}}
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:35,
-    nav:true,
-    dots: true,
-    autoplay:true,
-    responsive:{
-    0:{
-    items:1
-    },
-    {% if testimonials.count < 1 %}
-        768: {
-        items:1,
-        loop:false,
-        nav:false,
-        mouseDrag:false,
-        }
-    {% endif %}
-    }
-    })
-{% endblock page_scripts %}
