@@ -8,14 +8,79 @@
     <div class="container-layout">
         <section>
             <div class="container-content">
-                <h3>Comprehensive Study and Solo Studies</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <p>Dear interested parent,</p>
+                        <p>Thank you for your interest in <a href="https://suzukiassociation.org" target="_blank">Suzuki</a> piano! A loving, nurturing and supportive environment is the foundation of the Suzuki
+                            method.</p>
+                        <p>Since I first sought out training in the Suzuki method, I have been deeply gratified to be able to pass on the gift and joy of making music to my students and their families. </p>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/hyc_kate_portrait.jpg" alt="Kate Alm" class="img-fluid img-thumbnail image-shadow">
+                     </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-9">
+                        <img src="https://ka-static-media.s3-us-west-2.amazonaws.com/static/images/Studio_Portrait.jpg" alt="Kate Alm Suzuki Piano Studio Portrait; Photo by Kevin Monahan" width="92%">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eeujlKr2aTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="events">
+            <header id="banner-events">Dates &amp Events</header>
+            {% include "include/events_list.htm" %}
+        </section>
+
+        <section id="programs">
+            <header id="banner-summer">Programs</header>
+            <div class="container-content">
+                <p>I offer many opportunities for us to connect as a community of adults and children learning and appreciating music! For more information about these programs, which include reading club and student-to-student mentoring, please click <a href="{% url 'general:immersion' %}">here</a>. </p>
+                <center>
+                    <div class="container-carousel">
+                        <div id="owl-carousel" class="owl-carousel owl-theme">
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/kate_with_kids_sanctuary.jpg' %}" alt="kate_with_kids_sanctuary.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/girl_with_dog.jpg' %}" alt="girl_with_dog.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/gecko.jpg' %}" alt="gecko.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/stuffy_owl.jpg' %}" alt="stuffy_owl.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/student_playing_estonia.jpg' %}" alt="student_playing_estonia.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/flamingos.jpg' %}" alt="flamingos.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/bird.jpg' %}" alt="bird.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/jack.jpeg' %}" alt="jack.jpeg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/lvkk_meera.jpeg' %}" alt="lvkk_meera.jpeg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/recital_zoom.jpeg' %}" alt="recital_zoom.jpeg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/shark.jpeg' %}" alt="shark.jpeg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/zoom.jpeg' %}" alt="zoom.jpeg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/sheep.jpeg' %}" alt="sheep.jpeg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/dog.jpg' %}" alt="dog.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/pensive_dog.jpg' %}" alt="pensive_dog.jpg" class="img-carousel"></div>
+                            <div class="item mx-auto"><img src="{% static 'images/carousel/whiteboard.jpg' %}" alt="whiteboard.jpg" class="img-carousel"></div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+
+        <section>
+            <header>Comprehensive Study and Solo Studies</header>
+            <div class="container-content">
                 <p><h4>Comprehensive study – Tuition (typically grades K-6)</h4></p>
                 <p>An entire musical environment and the Suzuki Triangle (Parent-Teacher-Student) nurture, inspire, and support the young musician. Solo lessons, Group classes, All Studio Classes, Recitals, Open House, Duets, Observation, being observed, extensive home listening. (See <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/ParentResponsibilities.pdf">Parent Responsibilities</a>). Comprehensive study is the best way to ensure success in later grades when students often switch to Solo Studies.</p>
                 <p><h4>Solo Studies – Pay per season of lessons (typically grades 7-12 and Adults)</h4></p>
                 <p>Pay for a season of lessons and opt-in to any studio activities as desired and as planned in concert with the parents; 24 hour cancelation is credited, (sports and other activities may become more demanding and students in 7-12 often need to reschedule). ‘Solo Studies’ supports the adolescent in taking ownership of their own learning process. ‘Solo Studies’  is optimal because it keeps them engaged with the least possible amount of requirements to be at the studio. It supports their individuation through music and allows for modest, clear goals as well as for exploration of other music and musical styles. Serves the students so that when they are motivated and inspired to take on a new musical challenge, they have the skills and resources at their fingertips, literally, to succeed. </p>
             </div>
         </section>
+
+
         <section>
+            <header>Immersion</header>
             <div class="container-content" id="immersion">
                 <p><h3>Next Immersion in Spring 2023: February 22 - April 30.</h3>
                 <h4>Initial Observation and Consultation February 6 - 11, Sign Up $50 (goes to Immersion total). <a href="mailto:ingridander@gmail.com?cc=almusic@cruzio.com&subject=Suzuki%20Piano%20Immersion%20Program">Contact Ingrid and Kate.</a></h4>
@@ -25,6 +90,8 @@
                 <p>After you and your child have completed the 10 Week Suzuki Immersion, you will be eligible to enroll for lessons. Enrollment is a 45 minute session in which we discuss your and your child's experience so far. Please note that the child does not attend. I answer any questions you have, and we go over the <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/StudioPolicy.pdf" target="_blank">studio policy</a>, <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/ParentResponsibilities.pdf" target="_blank">parent responsibilities</a>, and <a href="https://s3-us-west-2.amazonaws.com/ka-public/PDFs/CampusRules.pdf" target="_blank">campus rules</a> at the Peace United Church campus where I conduct lessons. I have included those documents below as well so you can take your time with them over the course of the immersion program. However, please do read them prior to our 45-minute meeting!</p>
             </div>
         </section>
+
+
         <section id="new-students">
             <header id="banner-documents">Required Reading</header>
             <div class="row container-content justify-content-center">
@@ -41,5 +108,30 @@
             </div>
         </section>
     </div>
+</div>
+
 {% endblock main_text %}
 
+{% block page_scripts %}
+    {{block.super}}
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:35,
+    nav:true,
+    dots: true,
+    autoplay:true,
+    responsive:{
+    0:{
+    items:1
+    },
+    {% if testimonials.count < 1 %}
+        768: {
+        items:1,
+        loop:false,
+        nav:false,
+        mouseDrag:false,
+        }
+    {% endif %}
+    }
+    })
+{% endblock page_scripts %}
