@@ -15,7 +15,7 @@
                 {% if request.path == about_url %}
                 <h1 class="d-none d-lg-block">Musical Soulmates</h1>
                 <h1 class="d-lg-none">Musical Soulmates</h1>
-                    <h3 class="d-none d-lg-block">Suzuki Piano Studio, Performer's Collective, and Youth Choir</h3>
+                    <h3 class="d-none d-lg-block">Suzuki Piano Studio, Performer's Collaborative, and Youth Choir</h3>
                 {% endif %}
                 {% if request.path == events_url %}
                 <h1 class="d-none d-lg-block">Events and Contact Information</h1>
@@ -37,8 +37,8 @@
                 <h3 class="d-none d-lg-block">Kate Alm Suzuki Piano Studio</h3>
                 {% endif %}
                 {% if request.path == musicalsoulmates_url %}
-                <h1 class="d-none d-lg-block">Musical Soulmates Performer's Collective</h1>
-                <h1 class="d-lg-none">Performer's Collective</h1>
+                <h1 class="d-none d-lg-block">Musical Soulmates Performer's Collaborative</h1>
+                <h1 class="d-lg-none">Performer's Collaborative</h1>
                 {% endif %}
                 {% if request.path == harmonyyouth_url %}
                 <h1 class="d-none d-lg-block">Harmony Youth Choir</h1>
@@ -74,7 +74,7 @@
             <li id="nav-about" class="nav-item {% if request.path == about_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:home' %}">Home</a></li>
             <li id="nav-immersion" class="nav-item {% if request.path == immersion_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:immersion' %}">Suzuki Piano Studio</a></li>
             {#<li id="nav-programs" class="nav-item {% if request.path == programs_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:programs' %}">Studio Archives</a></li>#}
-            <li id="nav-musicalsoulmates" class="nav-item {% if request.path == musicalsoulmates_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:musicalsoulmates' %}">Performer's Collective</a></li>
+            <li id="nav-musicalsoulmates" class="nav-item {% if request.path == musicalsoulmates_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:musicalsoulmates' %}">Performer's Collaborative</a></li>
             <li id="nav-harmonyyouth" class="nav-item {% if request.path == harmonyyouth_url %}active{% endif %}"><a class="nav-link" href="{% url 'general:harmonyyouth' %}">Harmony Youth Choir</a></li>
         </ul>
     </div>
